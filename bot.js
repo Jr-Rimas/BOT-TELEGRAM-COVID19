@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({path: '.env'});
 const { Telegraf } = require('telegraf');
 const api = require('novelcovid');
 const Markup = require('telegraf/markup');
